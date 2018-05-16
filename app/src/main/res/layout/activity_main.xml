@@ -52,26 +52,13 @@
         />
   </LinearLayout>
   <LinearLayout
-      android:id="@+id/llUpLayout"
+      android:id="@+id/llContentLayout"
       android:layout_width="match_parent"
       android:layout_height="0pt"
-      android:orientation="horizontal"
-      android:layout_weight="3"
-      android:weightSum="4"
+      android:orientation="vertical"
+      android:layout_weight="6"
+      android:weightSum="2"
       >
 
   </LinearLayout>
-  <LinearLayout
-      android:id="@+id/llDownLayout"
-      android:layout_width="match_parent"
-      android:layout_height="0pt"
-      android:orientation="horizontal"
-      android:layout_weight="3"
-      android:weightSum="4"
-      >
-
-  </LinearLayout>
-
-
-
 </LinearLayout>
